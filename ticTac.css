@@ -1,0 +1,40 @@
+#ticTac div.player {
+    background: #da330a;
+}
+  
+#ticTac div.comp {
+    background: #1507e2;
+}
+
+#ticTac{
+  display: grid;
+  max-width: 500px;
+  margin: 10em auto;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 10px;
+}
+
+#ticTac div {
+  font-size: 3em;
+  text-align: center;
+  background: white;
+  padding: 30px;
+}
+
+#ticTac:hover{
+  color: aqua;
+}
+body{
+  background-color: yellow;
+
+}
+h1{
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+  color: #1507e2;
+}
+
+
+
+
